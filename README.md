@@ -17,8 +17,6 @@
 
 ## Purpose
 This document evaluates and compares Apache with its major competitors based on prerequisites, features, performance, strengths, and weaknesses.
-![nginx](https://github.com/user-attachments/assets/2a5e0e45-244d-4dd0-8bc3-c2f64257c73a)
-
 
 ## Tools-List
 - **Apache**
@@ -29,7 +27,7 @@ This document evaluates and compares Apache with its major competitors based on 
 ## Tools Description
 
 ### Apache
-![Apache Image](images/apache.png)
+<img src="images/apache.png" alt="Apache Image" width="250">
 - Widely used open-source web server.
 - Extensive module support, offering high customization.
 - Suited for dynamic content.
