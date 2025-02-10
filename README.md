@@ -17,6 +17,8 @@
 
 ## Purpose
 This document evaluates and compares Apache with its major competitors based on prerequisites, features, performance, strengths, and weaknesses.
+![nginx](https://github.com/user-attachments/assets/2a5e0e45-244d-4dd0-8bc3-c2f64257c73a)
+
 
 ## Tools-List
 - **Apache**
