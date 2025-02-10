@@ -27,7 +27,7 @@ This document evaluates and compares Apache with its major competitors based on 
 ## Tools Description
 
 ### Apache
-<img src="images/apache.png" alt="Apache Image" width="300">
+<img src="images/apache.png" alt="Apache Image" width="250">
 A widely used open-source web server with extensive module support and easy configuration. Apache supports a vast array of plugins, allowing customization for different use cases. It is well-suited for dynamic content, supports .htaccess for per-directory configuration, and integrates well with multiple programming languages like PHP, Python, and Perl.
 
 ### Nginx
@@ -35,11 +35,11 @@ A widely used open-source web server with extensive module support and easy conf
 A high-performance, lightweight web server and reverse proxy designed for handling multiple concurrent connections efficiently. It is widely used for serving static content, load balancing, and reverse proxying. Nginx is known for its scalability and event-driven architecture, making it ideal for handling high traffic loads.
 
 ### Tomcat
-<img src="images/tomcat.jpg" alt="Tomcat Image" width="300">
+<img src="images/tomcat.jpg" alt="Tomcat Image" width="250">
 A Java-based web server primarily used for running Java Servlets and JSP applications. It is widely used in enterprise environments for Java web applications, supporting Java EE specifications and web services.
 
 ### HAProxy
-<img src="images/haproxy.jpg" alt="HAProxy Image" width="300">
+<img src="images/haproxy.jpg" alt="HAProxy Image" width="250">
 A highly efficient and reliable TCP/HTTP load balancer designed to optimize web performance and distribute traffic across multiple backend servers. It is commonly used for high-availability setups and scalability.
 
 ## Pre-requirements Table
