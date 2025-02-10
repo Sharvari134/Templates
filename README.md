@@ -1,8 +1,8 @@
 # Tool Evaluation
 
-| **Author** | **Created on** | **Last updated by** |**Version**| **Last edited on** | **Internal Reviewer** | 
-|------------|----------------|---------------------|-----------|--------------------|---------------|
-| Sharvari Khamkar | 10-02-25      | Sharvari Khamkar         | v1 | 10-02-25       | Komal Jaiswal |  
+| **Author** | **Created on** | **Last updated by** | **Version** | **Last edited on** | **Internal Reviewer** | 
+|------------|----------------|---------------------|-------------|--------------------|----------------------|
+| Sharvari Khamkar | 10-02-25      | Sharvari Khamkar    | v1          | 10-02-25           | Komal Jaiswal        |  
 
 ## Table of Contents
 1. [Purpose](#Purpose)
@@ -27,20 +27,39 @@ This document evaluates and compares Apache with its major competitors based on 
 ## Tools Description
 
 ### Apache
-<img src="images/apache.png" alt="Apache Image" width="250">
-A widely used open-source web server with extensive module support and easy configuration. Apache supports a vast array of plugins, allowing customization for different use cases. It is well-suited for dynamic content, supports .htaccess for per-directory configuration, and integrates well with multiple programming languages like PHP, Python, and Perl.
+![Apache Image](images/apache.png)
+- Widely used open-source web server.
+- Extensive module support, offering high customization.
+- Suited for dynamic content.
+- Supports `.htaccess` for per-directory configuration.
+- Integrates well with multiple programming languages:
+  - PHP
+  - Python
+  - Perl
+- Allows for various plugins, enabling different use cases.
 
 ### Nginx
-<img src="images/nginx.jpg" alt="Nginx Image" width="100">
-A high-performance, lightweight web server and reverse proxy designed for handling multiple concurrent connections efficiently. It is widely used for serving static content, load balancing, and reverse proxying. Nginx is known for its scalability and event-driven architecture, making it ideal for handling high traffic loads.
-
-### Tomcat
-<img src="images/tomcat.jpg" alt="Tomcat Image" width="250">
-A Java-based web server primarily used for running Java Servlets and JSP applications. It is widely used in enterprise environments for Java web applications, supporting Java EE specifications and web services.
+![Nginx Image](images/nginx.jpg)
+- A high-performance, lightweight web server and reverse proxy.
+- Designed for handling multiple concurrent connections efficiently.
+- Widely used for serving static content, load balancing, and reverse proxying.
+- Known for scalability and event-driven architecture, making it ideal for high traffic loads.
+- Supports HTTP/2 and load balancing, improving efficiency in resource usage.
 
 ### HAProxy
-<img src="images/haproxy.jpg" alt="HAProxy Image" width="250">
-A highly efficient and reliable TCP/HTTP load balancer designed to optimize web performance and distribute traffic across multiple backend servers. It is commonly used for high-availability setups and scalability.
+![HAProxy Image](images/haproxy.jpg)
+- A highly efficient and reliable TCP/HTTP load balancer.
+- Optimizes web performance and distributes traffic across multiple backend servers.
+- Commonly used for high-availability setups and scalability.
+- Known for its ability to handle high-traffic and ensure load balancing, even under heavy loads.
+- Excellent protection against DDoS attacks.
+
+### Tomcat
+![Tomcat Image](images/tomcat.jpg)
+- A Java-based web server primarily used for running Java Servlets and JSP applications.
+- Widely used in enterprise environments for Java web applications.
+- Supports Java EE specifications and web services.
+- Suitable for running Java applications, providing servlet containers and JSP capabilities.
 
 ## Pre-requirements Table
 
@@ -57,35 +76,35 @@ A highly efficient and reliable TCP/HTTP load balancer designed to optimize web 
 
 ## Comparison Table
 
-| Feature               | Apache                | Nginx                | Tomcat                | HAProxy               |
-|----------------------|---------------------|---------------------|---------------------|---------------------|
-| **Performance**      | Moderate, process/thread-based | High, event-driven | Moderate, Java-based | High, event-driven |
-| **Ease of Use**      | Easy (Traditional config) | Moderate (Complex syntax) | Moderate (Java-specific) | Moderate (Config-based) |
-| **Resource Usage**   | High                 | Low                 | Moderate             | Low                 |
-| **Reverse Proxy**    | Yes (Via modules)    | Yes (Built-in)      | No                   | Yes (Optimized)     |
-| **Load Balancing**   | Yes (Via modules)    | Yes (Built-in)      | No                   | Yes (Optimized)     |
-| **Security**         | Moderate (Depends on modules) | High (Rate limiting, WAF) | High (Java security) | High (DDoS protection) |
-| **HTTP/2 & HTTP/3**  | Yes (HTTP/2 only)    | Yes                 | No                   | Yes                 |
-| **Community Support**| Large                | Large                | Large                | Medium              |
-| **License**         | Open-source (FOSS)   | Open-source (FOSS)  | Open-source (FOSS)  | Open-source (FOSS)  |
+| **Feature**           | **Apache**           | **Nginx**           | **Tomcat**           | **HAProxy**          |
+|-----------------------|---------------------|---------------------|---------------------|---------------------|
+| **Performance**        | Moderate, process/thread-based | High, event-driven | Moderate, Java-based | High, event-driven |
+| **Ease of Use**        | Easy (Traditional config) | Moderate (Complex syntax) | Moderate (Java-specific) | Moderate (Config-based) |
+| **Resource Usage**     | High                | Low                 | Moderate             | Low                 |
+| **Reverse Proxy**      | Yes (Via modules)   | Yes (Built-in)      | No                   | Yes (Optimized)     |
+| **Load Balancing**     | Yes (Via modules)   | Yes (Built-in)      | No                   | Yes (Optimized)     |
+| **Security**           | Moderate (Depends on modules) | High (Rate limiting, WAF) | High (Java security) | High (DDoS protection) |
+| **HTTP/2 & HTTP/3**    | Yes (HTTP/2 only)   | Yes                 | No                   | Yes                 |
+| **Community Support**  | Large               | Large               | Large                | Medium              |
+| **License**            | Open-source (FOSS)  | Open-source (FOSS)  | Open-source (FOSS)  | Open-source (FOSS)  |
 
 ## Strengths & Weaknesses
 
 | **Web Server** | **Strengths** | **Weaknesses** |
-|---------------|--------------|---------------|
-| **Apache** | Extensive module support.<br> Strong community and documentation. | Higher memory and CPU consumption.<br> Slower under heavy concurrent load. |
-| **Nginx** | High performance and scalability.<br> Low resource usage.<br> Built-in reverse proxy and load balancing. | Complex configuration syntax.<br> Less native support for dynamic content compared to Apache. |
-| **Tomcat** | Optimized for Java web applications.<br> Good integration with Java frameworks. | Not suitable for static content.<br> Requires Java runtime. |
-| **HAProxy** | Excellent load balancing.<br> Optimized for high availability.<br> Low resource consumption. | Configuration can be complex.<br> Limited support for dynamic content. |
+|----------------|---------------|----------------|
+| **Apache**     | Extensive module support.<br> Strong community and documentation. | Higher memory and CPU consumption.<br> Slower under heavy concurrent load. |
+| **Nginx**      | High performance and scalability.<br> Low resource usage.<br> Built-in reverse proxy and load balancing. | Complex configuration syntax.<br> Less native support for dynamic content compared to Apache. |
+| **Tomcat**     | Optimized for Java web applications.<br> Good integration with Java frameworks. | Not suitable for static content.<br> Requires Java runtime. |
+| **HAProxy**    | Excellent load balancing.<br> Optimized for high availability.<br> Low resource consumption. | Configuration can be complex.<br> Limited support for dynamic content. |
 
 ## Conclusion
 Apache remains a strong option due to its modularity and ease of use, while Nginx is better suited for high-performance web serving and reverse proxying. Tomcat is essential for Java-based applications, whereas HAProxy excels in load balancing and high availability scenarios. The right choice depends on specific use cases, such as ease of configuration, security, and scalability.
 
 ## Contacts
 
-| Name| Email Address      | Contact Number      |
-|-----|--------------------------|-----------------|
-| Sharvari Khamkar |  sharvari.khamkar@mygurukulam.co | 9702636830 |
+| Name | Email Address        | Contact Number  |
+|------|----------------------|-----------------|
+| Sharvari Khamkar | sharvari.khamkar@mygurukulam.co | 9702636830 |
 
 ## References
 
