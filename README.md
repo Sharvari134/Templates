@@ -39,7 +39,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Allows for various plugins, enabling different use cases.
 
 ### Nginx
-![Nginx Image](images/nginx.jpg)
+<img src="images/nginx.jpg" alt="Nginx Image" width="150">
 - A high-performance, lightweight web server and reverse proxy.
 - Designed for handling multiple concurrent connections efficiently.
 - Widely used for serving static content, load balancing, and reverse proxying.
