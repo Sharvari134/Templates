@@ -55,6 +55,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Excellent protection against DDoS attacks.
 
 ### Tomcat
+<img src="images/tomcat.jpg" width="150">
 ![Tomcat Image](images/tomcat.jpg)" 
 - A Java-based web server primarily used for running Java Servlets and JSP applications.
 - Widely used in enterprise environments for Java web applications.
