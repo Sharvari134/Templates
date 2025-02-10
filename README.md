@@ -1,5 +1,3 @@
-# Tool Evaluation
-
 | **Author** | **Created on** | **Last updated by** | **Version** | **Last edited on** | **Internal Reviewer** | 
 |------------|----------------|---------------------|-------------|--------------------|----------------------|
 | Sharvari Khamkar | 10-02-25      | Sharvari Khamkar    | v1          | 10-02-25           | Komal Jaiswal        |  
@@ -27,7 +25,7 @@ This document evaluates and compares Apache with its major competitors based on 
 ## Tools Description
 
 ### Apache
-![Apache Image](images/apache.png)
+![Apache Image](images/apache.png =150x150)
 - Widely used open-source web server.
 - Extensive module support, offering high customization.
 - Suited for dynamic content.
@@ -39,7 +37,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Allows for various plugins, enabling different use cases.
 
 ### Nginx
-![Nginx Image](images/nginx.jpg)
+![Nginx Image](images/nginx.jpg =150x150)
 - A high-performance, lightweight web server and reverse proxy.
 - Designed for handling multiple concurrent connections efficiently.
 - Widely used for serving static content, load balancing, and reverse proxying.
@@ -47,7 +45,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Supports HTTP/2 and load balancing, improving efficiency in resource usage.
 
 ### HAProxy
-![HAProxy Image](images/haproxy.jpg)
+![HAProxy Image](images/haproxy.jpg =150x150)
 - A highly efficient and reliable TCP/HTTP load balancer.
 - Optimizes web performance and distributes traffic across multiple backend servers.
 - Commonly used for high-availability setups and scalability.
@@ -55,7 +53,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Excellent protection against DDoS attacks.
 
 ### Tomcat
-![Tomcat Image](images/tomcat.jpg)
+![Tomcat Image](images/tomcat.jpg =150x150)
 - A Java-based web server primarily used for running Java Servlets and JSP applications.
 - Widely used in enterprise environments for Java web applications.
 - Supports Java EE specifications and web services.
