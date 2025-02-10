@@ -47,7 +47,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Supports HTTP/2 and load balancing, improving efficiency in resource usage.
 
 ### HAProxy
-<img src="images/haproxy.jpg" alt="Haproxy Image" width= 250">
+<img src="images/haproxy.jpg" alt="haproxy Image" width= 250">
 - A highly efficient and reliable TCP/HTTP load balancer.
 - Optimizes web performance and distributes traffic across multiple backend servers.
 - Commonly used for high-availability setups and scalability.
@@ -55,7 +55,7 @@ This document evaluates and compares Apache with its major competitors based on 
 - Excellent protection against DDoS attacks.
 
 ### Tomcat
-<img src="images/tomcat.jpg" alt="Tomcat Image" width= 250">
+<img src="images/tomcat.jpg" alt="tomcat Image" width= 250">
 - A Java-based web server primarily used for running Java Servlets and JSP applications.
 - Widely used in enterprise environments for Java web applications.
 - Supports Java EE specifications and web services.
