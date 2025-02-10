@@ -27,7 +27,7 @@ This document evaluates and compares Apache with its major competitors based on 
 ## Tools Description
 
 ### Apache
-<img src="images/apache.jpg" alt="Apache Image" width="250">
+<img src="images/apache.png" alt="Apache Image" width="250">
 - Widely used open-source web server.
 - Extensive module support, offering high customization.
 - Suited for dynamic content.
